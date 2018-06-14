@@ -1,0 +1,17 @@
+
+from IPython.display import clear_output
+def display_board(board):
+    clear_output()
+    print('    | |')
+    print('   ' + board[7] + '|' + board[8] + '|' + board[9])
+    print('    | |')
+    print('------------')
+    print('    | |')
+    print('   ' + board[6] + '|' + board[5] + '|' + board[4])
+    print('    | |')
+    print('------------')
+    print('    | |')
+    print('   '+ board[3] + '|' + board[2] + '|' + board[1])
+    print('    | |')
+board = ['anything','x','x','x','o','o','o','x','x','x']
+display_board(board)
